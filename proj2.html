@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+        .header{
+            /* width: 100%; */
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: blue;
+            background-color: aqua;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+
+            
+        }
+        .header-content {
+        font-size: 16px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px; /* space between header items */
+      }
+        .block2{
+            display: flex;
+            margin-top: 75px;
+            height: cal(100vh-75px);
+            background-color: darkblue;
+            
+        }
+        aside{
+            float: 0 0 100px;
+            background: rgb(68, 10, 110);
+        }
+        .block3{
+            
+            flex-direction: column;
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+           align-items: center;
+            color: rgb(78, 6, 234);
+            
+            /* flex-direction: column; */
+            background-color: rgb(0, 255, 4);
+            
+        }
+        .footer{
+            width: 100%;
+            height: 51px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+          
+    <header class="header">
+        <div class="header-content">
+            <div><a href="">home</a></div>
+            <div><a href="">about us</a></div>
+            <div><a href="">contact us</a></div>
+        </div>
+    </header>    
+    <div class="block2">
+        <aside>
+            <div>student form</div>
+            <div>student report</div>
+            <ul>
+                    <li > <a href="abc">student form</a></li>
+                    <li > <a href="xyz">student form reciept</a></li>
+                </ul>
+        </aside>
+    
+    <main class="block3">
+        <section class="content">this is the content page</section>
+        
+    <footer>FOOTER 
+    </footer>    </main>
+    </main>
+    </div>
+</body>
+</html>
