@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: coral;
+            display: grid;
+            grid-column: auto;
+        }
+        .header{
+            background-color: rgb(159, 159, 192);
+            display: flex;
+            flex-direction: row;
+            top: 0;
+            text-align: center;
+            align-items: center;
+            height: 50px;
+            width: 100vw;
+            justify-content: center;
+            font-size: xx-large;
+
+        }
+        .block2{
+            background-color: brown;
+            height: 200%;
+            width: calc(100vh-25px);
+
+        }
+        .sidebar{
+                background-color: burlywood;
+                text-align: left;
+                justify-content: left;
+                color: cornsilk;
+                
+            }
+            .main{
+                background-color: darkseagreen;
+                right: 0;
+            }
+        .headericon{
+            display: flex;
+            gap: 50px;
+            display: flex;
+            flex-direction: row;
+
+        }
+        .footer{
+            background-color: chartreuse;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+       
+        <div class="headericon">
+           
+        <div>
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+    </div>
+    <div>home</div>
+    <div>about us </div>
+    <div>contact us</div>
+
+        </div>
+
+    </div>
+    <aside class="sidebar"> this is sidebar</aside>
+
+        <div class="main">
+            <form>
+        <label for="name"><i>Name:</i></label>
+        
+        <input type="text"><br>
+        <br><br>
+        <label for="phone"><i>Phone</i></label>
+        <input type="number"><br><br><br>
+        <label for="email"><i>email</i></label>
+        <input type="email"><br><br>
+        <label for="gender"><i><u><b><strong>gender</strong></b></u></i></label>
+         <br>
+        <input type="radio", id="male">
+        <label for="male"><strong>MALE</strong></label><br>
+        <input type="radio",id="female">
+        <label for="female"><strong>FEMALE</strong></label><br><br>
+        
+        <label for="qualification"><i><strong>qualification</strong></i></label><br>
+
+        <label for="qualification2">BTECH</label>
+        <input type="checkbox", id="qualification2">
+        <label for="qualification3">MTECH</label>
+        <input type="checkbox", id="qualification3"><br><br>
+       <button type="submit"><strong>SUBMIT</strong></button>
+    </form>
+
+        </div>
+        <div class="footer">
+            thank you for visit
+        </div>
+
+    </div>
+</body>
+</html>
